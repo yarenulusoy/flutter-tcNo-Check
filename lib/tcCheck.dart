@@ -4,10 +4,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:xml2json/xml2json.dart';
 
-class Tckimliknvigovtr {
+class TcCheck{
   late String dogumYili, Ad, Soyad, TcNo;
 
-  Tckimliknvigovtr(
+  TcCheck(
       {required this.dogumYili,
         required this.Ad,
         required this.Soyad,
