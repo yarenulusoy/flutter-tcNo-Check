@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  Tckimliknvigovtr checkGo =Tckimliknvigovtr(dogumYili: "999",Ad:"xxx",Soyad:"yyy",TcNo:"123456789");
+  TcNoCheck checkGo =TcNoCheck(dogumYili: "999",Ad:"xxx",Soyad:"yyy",TcNo:"123456789");
   @override
   Widget build(BuildContext context) {
     return Scaffold(
